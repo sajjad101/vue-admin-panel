@@ -11,6 +11,8 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ title }}</h1>
+
+    <font-awesome-icon icon="coffee" />
     <h3>
       You’ve successfully created a project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +

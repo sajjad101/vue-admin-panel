@@ -1,4 +1,9 @@
 @import './base.css';
+@import 'vazir-font/dist/font-face.css';
+
+body {
+  font-family: 'Vazir', sans-serif;
+}
 
 #app {
   max-width: 1280px;
