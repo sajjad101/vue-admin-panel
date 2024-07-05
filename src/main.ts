@@ -1,4 +1,4 @@
-import './assets/main.css'
+import './assets/scss/main.scss'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
@@ -6,12 +6,11 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 import i18n from '../src/plugins/i18n'
-import FontAwesomeIcon from './plugins/font-awesome';
-
+import FontAwesomeIcon from './plugins/font-awesome'
 
 const app = createApp(App)
 
-app.component('font-awesome-icon', FontAwesomeIcon);
+app.component('font-awesome-icon', FontAwesomeIcon)
 
 app.use(createPinia())
 app.use(router)

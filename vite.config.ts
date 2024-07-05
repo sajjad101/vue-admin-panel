@@ -18,6 +18,13 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/assets/scss/base.scss";`
+      }
+    }
+  },
   server: {
     port: 8585,
     open: false
